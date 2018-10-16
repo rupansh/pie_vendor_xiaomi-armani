@@ -62,6 +62,10 @@ PRODUCT_COPY_FILES += \
 # Bluetooth (razor-MOB30X)
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/armani/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init
+    vendor/xiaomi/armani/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl:system/vendor/lib/hw/android.hardware.bluetooth@1.0-impl # (cancro)
+    vendor/xiaomi/armani/proprietary/vendor/lib/android.hardware.bluetooth@1.0.so:system/lib/android.hardware.bluetooth@1.0.so # (cancro)
+    vendor/xiaomi/armani/proprietary/vendor/lib/android.hardware.bluetooth.a2dp@1.0.so:system/lib/android.hardware.bluetooth.a2dp@1.0.so # (cancro)
+
 
 # Camera (V8.0.1.0)
 PRODUCT_COPY_FILES += \
